@@ -1,0 +1,11 @@
+#Node modules folder 
+node_modules/
+#Local enviroment variable
+.env
+#Log files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+#OS files
+.DS_store
+Thumbs.dbgit 
