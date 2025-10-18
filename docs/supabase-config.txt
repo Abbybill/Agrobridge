@@ -1,1 +1,2 @@
-
+Project URL: https://lrzwagrbkjiqypqvnnvt.supabase.co
+anon Public Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxyendhZ3Jia2ppcXlwcXZubnZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA3MTA0NDUsImV4cCI6MjA3NjI4NjQ0NX0.BR2uq3im43nef8rZL-tX5wzXemrgDQDQJz3oQkLGOUc
