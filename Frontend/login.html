@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroBridge</title>
+</head>
+<body>
+   
+
+    <h2>AgroBridge</h2>
+    <p>Where farmers and markets meet</p>  
+
+    <form action="/login" method="POST">
+        <!-- CSRF token for protection -->
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <div>
+            <label for="login_email">Email:</label><br>
+            <input type="email" id="login_email" name="login_email" placeholder="Enter your email" required autocomplete="current-email">
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" required autocomplete="current-password">
+        </div>
+        
+        <br>
+        
+        <div>
+            <button type="submit">Log In</button>
+        </div>
+        
+    </form>
+    
+        <a href="/forgot-password" aria-label="Reset your password">Reset your password</a>
+        <a href="/forgot-password">Forgot Password?</a>
+    </p>
+    
+</body>
+</html>
